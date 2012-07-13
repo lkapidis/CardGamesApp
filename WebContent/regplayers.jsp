@@ -12,13 +12,10 @@
 
 
 <%
-	String name1 = request.getParameter("name1");
+	String name1 = request.getParameter("chipsStack");
 	String name2 = request.getParameter("name2");
-	String name3 = request.getParameter("name3");
-	String name4 = request.getParameter("name4");
-	String name5 = request.getParameter("name5");
-	String name6 = request.getParameter("name6");
+	
 %>
-<%=name1 +" "+ name2 +" "+ name3 +" "+ name4 +" "+ name5 +" "+ name6 %>
+<%=name1 +" "+ name2  %>
 </body>
 </html>

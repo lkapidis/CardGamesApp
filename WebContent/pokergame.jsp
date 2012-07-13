@@ -9,8 +9,12 @@
 <title>Welcome to Poker Game!</title>
 </head>
 <body>
-<%!TexasGame tg = new TexasGame(); %>
+<%!TexasGame tg ; %>
+<%
+List<TexasPlayer> players = (List<TexasPlayer>)application.getAttribute("players");
 
+tg = new TexasGame(players);
+ %>
 The winner of this round is : <%=tg.findWinner().get(0) %>
 
 </body>

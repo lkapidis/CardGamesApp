@@ -35,13 +35,14 @@ public class TexasGame implements GamesWithCards {
 	public static int pot = 0;
 	public static int currentBet = 0;
 
-	public TexasGame() {
+	public TexasGame(List<TexasPlayer> players) {
 		/*
 		 * TexasGameRegistration is a factory that creates and register players
 		 * for Texas Poker Game
 		 */
-		tgr = new TexasGameRegistration();
-		players = tgr.createPlayers();
+//		tgr = new TexasGameRegistration();
+		this.players = players;
+		
 		this.startGame();
 	}
 
