@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="CardGames" size="2005,1266" id="org.leonidas.CardGames" metadata="uml2-1.0" initialized="true" tag="10" key="32303037303533312D3130204361726447616D6573">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.16/@sourceConnections.1" name="Dealer" location="600,683" size="76,29" id="org.leonidas.CardGames/Dealer">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Dealer-Soyatec::Import->org.leonidas.CardGames/Dealable" source="//@children.0" target="//@children.8" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,39"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Dealer-Soyatec::Import->org.leonidas.CardGames/Deck*org.leonidas.CardGames/Dealer-Standard::Call->org.leonidas.CardGames/Deck" source="//@children.0" target="//@children.6" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="42,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Dealer-Soyatec::Import->org.leonidas.CardGames/TexasPlayer*org.leonidas.CardGames/Dealer-Standard::Call->org.leonidas.CardGames/TexasPlayer" source="//@children.0" target="//@children.12" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="17,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Dealer-Standard::Call->org.leonidas.CardGames/CardHolder" source="//@children.0" target="//@children.13" targetEnd="//@children.0/@sourceConnections.3/@children.2" label="//@children.0/@sourceConnections.3/@children.0" sourceEnd="//@children.0/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call»" size="23,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,11" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,26"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Dealer-Soyatec::Import->org.leonidas.CardGames/TableHand*org.leonidas.CardGames/Dealer-Standard::Call->org.leonidas.CardGames/TableHand" source="//@children.0" target="//@children.11" targetEnd="//@children.0/@sourceConnections.4/@children.2" label="//@children.0/@sourceConnections.4/@children.0" sourceEnd="//@children.0/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.1 //@children.15/@sourceConnections.4" name="PlayerHand" location="64,641" size="101,29" id="org.leonidas.CardGames/PlayerHand">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/PlayerHand-Soyatec::Import->org.leonidas.CardGames/Card" source="//@children.1" target="//@children.4" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/PlayerHand-Soyatec::Implement->org.leonidas.CardGames/CardHolder" source="//@children.1" target="//@children.13" targetEnd="//@children.1/@sourceConnections.1/@children.2" label="//@children.1/@sourceConnections.1/@children.0" sourceEnd="//@children.1/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,28" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.0 //@children.10/@sourceConnections.0 //@children.16/@sourceConnections.7" name="ChipStack" location="331,1149" size="93,29" id="org.leonidas.CardGames/ChipStack">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.16/@sourceConnections.0" name="Tables" location="689,1207" size="77,39" id="org.leonidas.CardGames/Tables">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.6/@sourceConnections.0 //@children.1/@sourceConnections.0 //@children.15/@sourceConnections.0" name="Card" location="50,324" size="67,29" id="org.leonidas.CardGames/Card">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="test" location="948,1004" size="62,29" id="org.leonidas.CardGames/test">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/test-Standard::Call->org.leonidas.CardGames/TexasTable*org.leonidas.CardGames/test-Standard::Instantiate->org.leonidas.CardGames/TexasTable*org.leonidas.CardGames/test-Soyatec::Import->org.leonidas.CardGames/TexasTable" source="//@children.5" target="//@children.16" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="89,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.1 //@children.16/@sourceConnections.6 //@children.15/@sourceConnections.2" name="Deck" location="450,401" size="68,29" id="org.leonidas.CardGames/Deck">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Deck-Standard::Call->org.leonidas.CardGames/Card*org.leonidas.CardGames/Deck-Standard::Instantiate->org.leonidas.CardGames/Card*org.leonidas.CardGames/Deck-Soyatec::Import->org.leonidas.CardGames/Card*org.leonidas.CardGames/Deck-Soyatec::Import->org.leonidas.CardGames/Card" source="//@children.6" target="//@children.4" targetEnd="//@children.6/@sourceConnections.0/@children.2" label="//@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,7" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,21"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Deck-Standard::Call->org.leonidas.CardGames/SymbolOfCards*org.leonidas.CardGames/Deck-Soyatec::Import->org.leonidas.CardGames/SymbolOfCards" source="//@children.6" target="//@children.14" targetEnd="//@children.6/@sourceConnections.1/@children.2" label="//@children.6/@sourceConnections.1/@children.0" sourceEnd="//@children.6/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="26,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="94,121"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Deck-Standard::Call->org.leonidas.CardGames/NoOfCards*org.leonidas.CardGames/Deck-Soyatec::Import->org.leonidas.CardGames/NoOfCards" source="//@children.6" target="//@children.9" targetEnd="//@children.6/@sourceConnections.2/@children.2" label="//@children.6/@sourceConnections.2/@children.0" sourceEnd="//@children.6/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,171"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Deck-Soyatec::Import->org.leonidas.CardGames/CardHolder" source="//@children.6" target="//@children.13" targetEnd="//@children.6/@sourceConnections.3/@children.2" label="//@children.6/@sourceConnections.3/@children.0" sourceEnd="//@children.6/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="30,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="70,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Deck-Soyatec::Import->org.leonidas.CardGames/Dealable" source="//@children.6" target="//@children.8" targetEnd="//@children.6/@sourceConnections.4/@children.2" label="//@children.6/@sourceConnections.4/@children.0" sourceEnd="//@children.6/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="57,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="14,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="ClassicPokerDeal" location="842,466" size="131,29" id="org.leonidas.CardGames/ClassicPokerDeal">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/ClassicPokerDeal-Soyatec::Implement->org.leonidas.CardGames/Dealable" source="//@children.7" target="//@children.8" targetEnd="//@children.7/@sourceConnections.0/@children.2" label="//@children.7/@sourceConnections.0/@children.0" sourceEnd="//@children.7/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,25" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="87,12"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/ClassicPokerDeal-Soyatec::Import->org.leonidas.CardGames/CardHolder" source="//@children.7" target="//@children.13" targetEnd="//@children.7/@sourceConnections.1/@children.2" label="//@children.7/@sourceConnections.1/@children.0" sourceEnd="//@children.7/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="33,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="91,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.0 //@children.0/@sourceConnections.0 //@children.6/@sourceConnections.4 //@children.16/@sourceConnections.4 //@children.15/@sourceConnections.3" name="Dealable" location="605,505" size="87,39" id="org.leonidas.CardGames/Dealable">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Dealable-Soyatec::Import->org.leonidas.CardGames/CardHolder" source="//@children.8" target="//@children.13" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,39" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="72,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.6/@sourceConnections.2" name="NoOfCards" location="699,111" size="99,283" id="org.leonidas.CardGames/NoOfCards">
+    <children xsi:type="editmodel:CompartmentEditModel" size="46,234">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FOUR" id="org.leonidas.CardGames/NoOfCards#FOUR%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NINE" id="org.leonidas.CardGames/NoOfCards#NINE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="FIVE" id="org.leonidas.CardGames/NoOfCards#FIVE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="TWO" id="org.leonidas.CardGames/NoOfCards#TWO%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="SIX" id="org.leonidas.CardGames/NoOfCards#SIX%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="JACK" id="org.leonidas.CardGames/NoOfCards#JACK%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="TEN" id="org.leonidas.CardGames/NoOfCards#TEN%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="SEVEN" id="org.leonidas.CardGames/NoOfCards#SEVEN%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="KING" id="org.leonidas.CardGames/NoOfCards#KING%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="ACE" id="org.leonidas.CardGames/NoOfCards#ACE%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="QUEEN" id="org.leonidas.CardGames/NoOfCards#QUEEN%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EIGHT" id="org.leonidas.CardGames/NoOfCards#EIGHT%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="THREE" id="org.leonidas.CardGames/NoOfCards#THREE%"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.3" name="Player" location="106,957" size="74,29" id="org.leonidas.CardGames/Player">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Player-Standard::Call->org.leonidas.CardGames/ChipStack*org.leonidas.CardGames/Player-Standard::Instantiate->org.leonidas.CardGames/ChipStack*org.leonidas.CardGames/Player-Soyatec::Import->org.leonidas.CardGames/ChipStack" source="//@children.10" target="//@children.2" targetEnd="//@children.10/@sourceConnections.0/@children.2" label="//@children.10/@sourceConnections.0/@children.0" sourceEnd="//@children.10/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="55,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="29,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/Player-Soyatec::Import->org.leonidas.CardGames/CardHolder" source="//@children.10" target="//@children.13" targetEnd="//@children.10/@sourceConnections.1/@children.2" label="//@children.10/@sourceConnections.1/@children.0" sourceEnd="//@children.10/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="53,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,39"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.4 //@children.16/@sourceConnections.5" name="TableHand" location="801,813" size="98,29" id="org.leonidas.CardGames/TableHand">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TableHand-Soyatec::Implement->org.leonidas.CardGames/CardHolder" source="//@children.11" target="//@children.13" targetEnd="//@children.11/@sourceConnections.0/@children.2" label="//@children.11/@sourceConnections.0/@children.0" sourceEnd="//@children.11/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="10,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,37"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.16/@sourceConnections.2" name="TexasPlayer" location="300,889" size="104,29" id="org.leonidas.CardGames/TexasPlayer">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasPlayer-Soyatec::Import->org.leonidas.CardGames/ChipStack" source="//@children.12" target="//@children.2" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasPlayer-Standard::Instantiate->org.leonidas.CardGames/PlayerHand" source="//@children.12" target="//@children.1" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="39,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasPlayer-Soyatec::Import->org.leonidas.CardGames/CardHolder" source="//@children.12" target="//@children.13" targetEnd="//@children.12/@sourceConnections.2/@children.2" label="//@children.12/@sourceConnections.2/@children.0" sourceEnd="//@children.12/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="59,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="40,39"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasPlayer-Standard::Derive->org.leonidas.CardGames/Player" source="//@children.12" target="//@children.10" targetEnd="//@children.12/@sourceConnections.3/@children.2" label="//@children.12/@sourceConnections.3/@children.0" sourceEnd="//@children.12/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Derive»" size="34,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="6,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="74,2"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.7/@sourceConnections.1 //@children.8/@sourceConnections.0 //@children.0/@sourceConnections.3 //@children.6/@sourceConnections.3 //@children.12/@sourceConnections.2 //@children.11/@sourceConnections.0 //@children.1/@sourceConnections.1 //@children.10/@sourceConnections.1 //@children.16/@sourceConnections.3 //@children.15/@sourceConnections.1" name="CardHolder" location="410,668" size="101,39" id="org.leonidas.CardGames/CardHolder">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:EnumerationEditModel" targetConnections="//@children.6/@sourceConnections.1" name="SymbolOfCards" location="382,50" size="122,121" id="org.leonidas.CardGames/SymbolOfCards">
+    <children xsi:type="editmodel:CompartmentEditModel" size="63,72">
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="HEARTS" id="org.leonidas.CardGames/SymbolOfCards#HEARTS%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="CLUBS" id="org.leonidas.CardGames/SymbolOfCards#CLUBS%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="SPADES" id="org.leonidas.CardGames/SymbolOfCards#SPADES%"/>
+      <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DIAMONDS" id="org.leonidas.CardGames/SymbolOfCards#DIAMONDS%"/>
+    </children>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="TexasDeal" location="239,420" size="96,29" id="org.leonidas.CardGames/TexasDeal">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasDeal-Soyatec::Import->org.leonidas.CardGames/Card" source="//@children.15" target="//@children.4" targetEnd="//@children.15/@sourceConnections.0/@children.2" label="//@children.15/@sourceConnections.0/@children.0" sourceEnd="//@children.15/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="18,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasDeal-Standard::Call->org.leonidas.CardGames/CardHolder*org.leonidas.CardGames/TexasDeal-Soyatec::Import->org.leonidas.CardGames/CardHolder" source="//@children.15" target="//@children.13" targetEnd="//@children.15/@sourceConnections.1/@children.2" label="//@children.15/@sourceConnections.1/@children.0" sourceEnd="//@children.15/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasDeal-Standard::Call->org.leonidas.CardGames/Deck*org.leonidas.CardGames/TexasDeal-Standard::Instantiate->org.leonidas.CardGames/Deck*org.leonidas.CardGames/TexasDeal-Soyatec::Import->org.leonidas.CardGames/Deck" source="//@children.15" target="//@children.6" targetEnd="//@children.15/@sourceConnections.2/@children.2" label="//@children.15/@sourceConnections.2/@children.0" sourceEnd="//@children.15/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,4" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,23"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasDeal-Soyatec::Implement->org.leonidas.CardGames/Dealable" source="//@children.15" target="//@children.8" targetEnd="//@children.15/@sourceConnections.3/@children.2" label="//@children.15/@sourceConnections.3/@children.0" sourceEnd="//@children.15/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,26" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,8"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasDeal-Standard::Instantiate->org.leonidas.CardGames/PlayerHand" source="//@children.15" target="//@children.1" targetEnd="//@children.15/@sourceConnections.4/@children.2" label="//@children.15/@sourceConnections.4/@children.0" sourceEnd="//@children.15/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="36,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.0" name="TexasTable" location="575,867" size="101,29" id="org.leonidas.CardGames/TexasTable">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Soyatec::Implement->org.leonidas.CardGames/Tables" source="//@children.16" target="//@children.3" targetEnd="//@children.16/@sourceConnections.0/@children.2" label="//@children.16/@sourceConnections.0/@children.0" sourceEnd="//@children.16/@sourceConnections.0/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Implement»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="54,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="32,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Soyatec::Import->org.leonidas.CardGames/Dealer*org.leonidas.CardGames/TexasTable-Standard::Call->org.leonidas.CardGames/Dealer*org.leonidas.CardGames/TexasTable-Standard::Instantiate->org.leonidas.CardGames/Dealer" source="//@children.16" target="//@children.0" targetEnd="//@children.16/@sourceConnections.1/@children.2" label="//@children.16/@sourceConnections.1/@children.0" sourceEnd="//@children.16/@sourceConnections.1/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="62,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Soyatec::Import->org.leonidas.CardGames/TexasPlayer*org.leonidas.CardGames/TexasTable-Standard::Call->org.leonidas.CardGames/TexasPlayer*org.leonidas.CardGames/TexasTable-Standard::Instantiate->org.leonidas.CardGames/TexasPlayer" source="//@children.16" target="//@children.12" targetEnd="//@children.16/@sourceConnections.2/@children.2" label="//@children.16/@sourceConnections.2/@children.0" sourceEnd="//@children.16/@sourceConnections.2/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import, Instantiate»" size="100,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,25" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="104,3"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Soyatec::Import->org.leonidas.CardGames/CardHolder*org.leonidas.CardGames/TexasTable-Standard::Call->org.leonidas.CardGames/CardHolder" source="//@children.16" target="//@children.13" targetEnd="//@children.16/@sourceConnections.3/@children.2" label="//@children.16/@sourceConnections.3/@children.0" sourceEnd="//@children.16/@sourceConnections.3/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Call, Import»" size="55,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="38,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="67,39"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Soyatec::Import->org.leonidas.CardGames/Dealable" source="//@children.16" target="//@children.8" targetEnd="//@children.16/@sourceConnections.4/@children.2" label="//@children.16/@sourceConnections.4/@children.0" sourceEnd="//@children.16/@sourceConnections.4/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import»" size="35,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="65,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="35,39"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Standard::Instantiate->org.leonidas.CardGames/TableHand" source="//@children.16" target="//@children.11" targetEnd="//@children.16/@sourceConnections.5/@children.2" label="//@children.16/@sourceConnections.5/@children.0" sourceEnd="//@children.16/@sourceConnections.5/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="101,2" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,26"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Standard::Instantiate->org.leonidas.CardGames/Deck*org.leonidas.CardGames/TexasTable-Soyatec::Import->org.leonidas.CardGames/Deck" source="//@children.16" target="//@children.6" targetEnd="//@children.16/@sourceConnections.6/@children.2" label="//@children.16/@sourceConnections.6/@children.0" sourceEnd="//@children.16/@sourceConnections.6/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Import, Instantiate»" size="81,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="46,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="39,29"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" autoLocated="true" id="org.leonidas.CardGames/TexasTable-Standard::Instantiate->org.leonidas.CardGames/ChipStack" source="//@children.16" target="//@children.2" targetEnd="//@children.16/@sourceConnections.7/@children.2" label="//@children.16/@sourceConnections.7/@children.0" sourceEnd="//@children.16/@sourceConnections.7/@children.1" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:WireLabelEditModel" name="«Instantiate»" size="50,10" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="37,29" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="58,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=4;Product=eUML2;displayOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="15,15" gridOrigin="0,0" rulerUnit="pixel" gridVisibility="false">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" showPopupBars="true" showConnectionHandles="true" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" showDependencyStereotype="true" showInterfaceStereotype="true" innerClassSorter="Natural" showPublicInnerClasses="true" showPackageInnerClasses="true" showStaticInnerClasses="true" packageIndication="3"/>
+</editmodel:ClassDiagramEditModel>
