@@ -1,3 +1,4 @@
+<%@page import="org.leonidas.CardGames.bl.*"%>
 <%@page import="org.leonidas.CardGames.*" import="java.util.*"%>
 
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -10,30 +11,31 @@
 </head>
 <body>
 <h3>Player Registration</h3><br>
-<%! TexasGameRegistration r; %>
+
 <%! List<TexasPlayer> texasPlayers = new ArrayList<TexasPlayer>(); 
 int count=0;
+InitGame initGame= new InitGame();
 %>
 <%
-
+TexasPlayer tp;
 application.setAttribute("players", texasPlayers);
-r = new TexasGameRegistration(texasPlayers);
+
 String name = request.getParameter("name");
 String chipsStack = request.getParameter("chipsStack");
 String spot = request.getParameter("spot");
 
+tp = initGame.registerPlayers(texasPlayers, name, Integer.parseInt(chipsStack), Integer.parseInt(spot));
+session.setAttribute("player", tp);
 
-r.registerPlayer(name, Integer.parseInt(chipsStack), Integer.parseInt(spot));
-application.setAttribute("counter", count++);
 %><br>
-<br><%= name+" "+chipsStack+" "+ spot %>
+
 <br><%= texasPlayers.get(0).getName() %>
 <br><%= texasPlayers.get(1).getName() %>
 <br><%= texasPlayers.get(2).getName() %>
 <br><%= texasPlayers.get(3).getName() %>
 <br><%= texasPlayers.get(4).getName() %>
 <br><%= texasPlayers.get(5).getName() %>
-<%if(count>1) {
+<%if(initGame.startGame()) {
 	response.sendRedirect("pokergame.jsp");
 }
 %>

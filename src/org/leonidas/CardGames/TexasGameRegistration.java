@@ -33,16 +33,19 @@ public class TexasGameRegistration {
 	 * @param chips
 	 * @param tableSpot
 	 */
-	public void registerPlayer(String name, int chips, int tableSpot) {
+	public TexasPlayer registerPlayer(String name, int chips, int tableSpot) {
 		if(players.isEmpty()){
 			System.out.println("ADEIOS");
 		}
 		if (players.get(tableSpot).getName().equals("dummy")) {
 			players.remove(tableSpot);
-			players.add(tableSpot, new TexasPlayer(name, new ChipStack(chips),tableSpot));
+			TexasPlayer tp =  new TexasPlayer(name, new ChipStack(chips),tableSpot);
+			players.add(tableSpot, tp);
 			System.out.println("Player added in " + tableSpot + "position");
+			return tp;
 		} else {
 			System.out.println("Seat is taken.. Choose an other one.");
+			return null;
 		}
 	}
 

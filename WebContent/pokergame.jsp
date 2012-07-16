@@ -1,3 +1,4 @@
+<%@page import="org.leonidas.CardGames.bl.Phase"%>
 <%@page import="org.leonidas.CardGames.*"%>
 <%@page import="java.util.*"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
@@ -9,13 +10,32 @@
 <title>Welcome to Poker Game!</title>
 </head>
 <body>
-<%!TexasGame tg ; %>
-<%
-List<TexasPlayer> players = (List<TexasPlayer>)application.getAttribute("players");
+<%!TexasGame tg;
+GamePhase gf;
+CardHolder tableHand = new TableHand();
+Phase phase;
+%>
 
-tg = new TexasGame(players);
+<%
+String action = request.getParameter("action");
+String raiseAmount = request.getParameter("raiseAmount");
+
+int turn = 0;
+gf = new DealingPhase( (List<TexasPlayer>)application.getAttribute("players"),tableHand);
+gf.phase();
+gf = new PreFlop( (List<TexasPlayer>)application.getAttribute("players"),tableHand);
+gf.phase();
+phase = new Phase((List<TexasPlayer>)application.getAttribute("players"),tableHand);
+
+//phase.doAction(action, Integer.parseInt(raiseAmount), turn);
+%>
+
+<%
+/* List<TexasPlayer> players = (List<TexasPlayer>)application.getAttribute("players");
+
+tg = new TexasGame(players); */
  %>
-The winner of this round is : <%=tg.findWinner().get(0) %>
+<%-- The winner of this round is : <%=tg.findWinner().get(0) %> --%>
 
 </body>
 </html>

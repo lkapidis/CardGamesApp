@@ -58,8 +58,9 @@ public class Flop implements GamePhase {
 
 				System.out.println("Player" + players.get(turn).getName()
 						+ " calls ");
+				
 				action.call(players.get(turn));
-
+				
 			}
 			actionCounter++;
 			turn++;
